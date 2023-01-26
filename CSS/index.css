@@ -1,0 +1,414 @@
+body{
+    font-family: 'trispace';  
+    margin: 0;
+    
+    
+}
+/* NAVIGATION SECTION */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #ffffff;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.Logo{
+    float: left;
+    padding: 5px 0;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+.navbutton{
+    width: 73px;
+    height: 24px;
+
+    font-family: 'Trispace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 8px;
+
+    width: 123px;
+    height: 44px;
+
+    background: linear-gradient(74.49deg, #8F81BD 21.72%, #6E9DE9 78.28%);
+    border-radius: 12px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    border: none;
+    
+}
+/* HERO SECTION */
+.heroimg{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 190px;
+    gap: 240px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.imageinhero{
+    float: right;
+    padding-top: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0;
+    
+    width: 653px;
+    height: 288px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.heroabout{
+    font-size: 16px;
+    width: 533px;
+}
+h1{
+    font-size: 64px;
+    height: 72px;
+    
+}
+.traitscontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    font-size: 16px;
+    word-spacing: 24px;
+    
+    width: 370px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* TOOLS SECTION */
+.toolscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: linear-gradient(92.78deg, #9081BD 24.69%, #6E9DEA 93.23%);
+}
+/* ABOUT ME SECTION */
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    gap: 155px;
+    padding: 80px 190px;
+}
+.aboutmeinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+
+    width: 602px;
+    
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h3{
+    font-size: 48px;
+    margin: 0;
+}
+/* MY WORK SECTION */
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 64px;
+    gap: 48px;
+    
+    height: 1338px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+h4{
+    font-size: 48px;
+    margin: 0;
+}
+.myworkcards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1312px;
+    
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.myworkcard1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 164px;
+
+    width: 1312px;
+    height: 334px;
+
+    background: #F7F7F9;
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card1right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 534px;
+    height: 270px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h5{
+    font-size: 32px;
+    margin: 0;
+}
+.viewproject1{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 131px;
+    background:none;
+
+    width: 184px;
+    height: 44px;
+
+
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h6{
+    font-size: 32px;
+    margin: 0;
+}
+.myworkcard2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 164px;
+
+    width: 1312px;
+    height: 334px;
+
+    background: #F7F7F9;
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card2right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 534px;
+    height: 270px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.viewproject2{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 88px;
+    background:none;
+
+    width: 184px;
+    height: 44px;
+
+
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.myworkcard3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 164px;
+
+    width: 1312px;
+    height: 334px;
+
+    background: #F7F7F9;
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card3right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 534px;
+    height: 270px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.viewproject3{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    gap: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 131px;
+    background:none;
+
+    width: 184px;
+    height: 44px;
+
+
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* FOOTER SECTION */
+.containerf{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+}
+footer{
+    background: #F7F7F9;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 48px;
+}
+.connect{
+    background: linear-gradient(95.47deg, #9080BC 53.47%, #6D9DEA 94.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+    
+
+    list-style: none;
+}
+.copyright{
+    padding-top: 25px;
+    text-align: center;
+    
+}
+
+.Bryan{
+    background: linear-gradient(95.47deg, #9080BC 53.47%, #6D9DEA 94.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
