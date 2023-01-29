@@ -1,3 +1,5 @@
+
+//ANIMATIONS FOR ABOUT ME AND MY WORK
 const faders = document.querySelectorAll('.crds');
 const sliders = document.querySelectorAll(".slide-in");
 
