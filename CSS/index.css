@@ -1,8 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'trispace';  
     margin: 0;
-    
-    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgba(31, 34, 36, 0.7);
+    cursor: pointer;
 }
 /* NAVIGATION SECTION */
 .container{
@@ -543,4 +552,28 @@ footer li:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+.crds{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+
+}
+.crds.appear{
+    opacity: 1;
+}
+.from-left{
+    transform: translateX(-50%);
+}
+.from-right{
+    transform: translateX(50%);
+}
+.from-left,
+.from-right{
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+.from-left.appear,
+.from-right.appear{
+    transform: translateX(0);
+    opacity: 1;
 }

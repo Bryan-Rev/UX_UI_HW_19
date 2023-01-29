@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
     <link href="CSS/index.css" rel="stylesheet" type="text/css">
     <title></title>
@@ -12,10 +13,10 @@
             <img src="images/Logo.png" alt="Logo" class="Logo">
             <nav>
                 <ul>
-                  <li><b>Home</b></li>  
-                  <li>About</li>
-                  <li>Work</li>
-                  <li><button class="navbutton">Connect</button></li>
+                  <li>Home</li>  
+                  <li><a href="#aboutme">About</a></li>
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="#foot"><button class="navbutton">Connect</button></a></li>
                 </ul>
 
 
@@ -55,9 +56,9 @@
     </div>
    </section>
     <!-- ABOUT ME SECTION -->
-    <section class="aboutme">
-        <img src="images/Big Portrait.png" alt="bigportrait" class="bigportrait">
-        <div class="aboutmeinfo">
+    <section class="aboutme abme" id="aboutme">
+        <img src="images/Big Portrait.png" alt="bigportrait" class="bigportrait from-left slide-in">
+        <div class="aboutmeinfo from-right slide-in">
             <h3>
                 About Me
             </h3>
@@ -71,12 +72,12 @@
     </section>
     
     <!-- MY WORK SECTION --> 
-    <section class="mywork">
+    <section class="mywork" id="work">
         <h4>
             My Work
         </h4>
         <div class="myworkcards">
-            <div class="myworkcard1">
+            <div class="myworkcard1 crds">
                 <img src="images/TBBR Thumbnail.png" alt="TBBR thumbnail" class="TBBRthumbnail">
                 <div class="card1right">
                     <h5>
@@ -90,7 +91,7 @@
                 
 
             </div>
-            <div class="myworkcard2">
+            <div class="myworkcard2 crds">
                 <img src="images/Apple Thumbnail.png" alt="Apple thumbnail" class="Applethumbnail">
                 <div class="card2right">
                     <h6>
@@ -103,7 +104,7 @@
                 </div>
 
             </div>
-            <div class="myworkcard3">
+            <div class="myworkcard3 crds">
                 <img src="images/FCC Mockup 2.png" alt="FCC mockup" class="FCCmockup">
                 <div class="card3right">
                     <h6>
@@ -120,7 +121,7 @@
 
     </section>
     <!-- FOOTER SECTION -->
-   <footer>
+   <footer id="foot">
     <div class="containerf">
         <h2>
             Lets <span class="connect">Connect!</span> 
@@ -139,5 +140,5 @@
    </footer>
 
 </body>
-
+<script src="js/index.js"></script>
 </html>
