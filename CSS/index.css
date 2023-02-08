@@ -554,7 +554,7 @@ footer li:hover{
     background-clip: text;
 }
 
-/* PAGE EFFECTS FOR JS */
+/* PAGE EFFECTS FOR JAVASCRIPT */
 .crds{
     opacity: 0;
     transition: opacity 250ms ease-in;
